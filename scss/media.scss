@@ -1,0 +1,304 @@
+/* phones */
+@media all and (max-width: 500px) {
+
+   .intro-section {
+      article {
+         p {
+            white-space: nowrap;
+         }
+      }
+   }
+   
+   .footer {
+
+      .wrapper {
+         flex-direction: column;
+         align-items: center;
+
+         .left-block {
+            width: 50%;
+            align-items: center;
+
+            span {
+               text-align: center;
+            }
+         }
+
+         .links-block {
+            margin-top: 20px;
+            width: 50%;
+            align-items: center;
+         }
+
+         form {
+            text-align: center;
+         }
+      }
+
+      .last-row {
+         flex-direction: column;
+         align-items: center;
+      }
+   }
+}
+
+@media (max-width: 700px) {
+   .intro-section {
+      margin-bottom: 200px;
+      aside {
+         width: 400px;
+         .man-block {
+            right: 0px;
+
+            img {
+               width: 238px;
+            }
+
+            .additional-block {
+               top: 0px;
+               left: 50px;
+               img {
+                  width: 50px;
+               }
+            }
+         }
+
+         .woman-block {
+            top: 35px;
+            justify-content: center;
+            img {
+               width: 300px;
+            }
+            .additional-block {
+               width: 150px;
+               top: 0px;
+               left: 120px;
+               img {
+                  width: 50px;
+               }
+            
+            }
+         }
+      }
+   }
+
+   .our-work {
+      .wrapper {
+         .text {
+            width: 70%;
+         }
+      }
+   }
+
+   .services {
+      img {
+         margin-top: 50px;
+      }
+   }
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+
+
+   .digital-artists {
+      .buttons {
+         flex-direction: column;
+         align-items: center;
+         height: 200px;
+      }
+   }
+
+   .our-work {
+
+      img {
+         width: 400px;
+         height: 307px;
+      }
+   }
+
+   .join-us {
+      height: fit-content;
+   
+      .background-people {
+         display: none;
+      }
+
+      .main-block {
+         a {
+            margin-bottom: 20px;
+         }
+      }
+   }
+
+   .browse-by {
+      .heading {
+         text-align: center;
+      }
+   }
+
+   .services {
+      margin-top: 200px;
+   }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+
+   .top-nft {
+      .grid-wrapper-for-nfts {
+         grid-template-columns: 1fr !important;
+      }
+   }
+}
+
+@media (max-width: 1200px) {
+
+   .header {
+      .icon-and-navigation-wrapper {
+         .navigation {
+            display: none;
+         }
+      }
+
+      .soc-networks-and-btn-wrapper {
+         display: none;
+      }
+
+      .burger-menu {
+         display: block;
+      }
+   }
+
+   .intro-section {
+      flex-direction: column;
+
+      article {
+         width: 100%;
+         text-align: center;
+      }
+
+      aside {
+         margin-top: 50px;
+         align-self: center;
+      }
+   }
+
+   .digital-artists {
+      
+      .buttons {
+         width: 80%;
+         margin-left: auto;
+         margin-right: auto;
+      }
+      .digital-artist {
+         flex-direction: column;
+         align-items: center;
+
+         .wrapper {
+            width: 60%;
+            text-align: center;
+         }
+      }
+   } 
+   
+   .our-work {
+      flex-direction: column;
+      align-items: center;
+      .wrapper {
+         margin-left: 0px;
+         
+         width: 585px;
+         align-items: center;
+         
+         h2 {
+            text-align: center;
+         }
+            
+         .text {
+            text-align: center;
+         }
+   
+         a {
+            align-self: center;
+         }
+      }
+   }
+
+   .services {
+      flex-direction: column;
+      align-items: center;
+
+      .services-wrapper {
+         width: 100%;
+         // height: fit-content;
+         align-items: center;
+         margin-bottom: 50px;
+         .service-block {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+         }
+      }
+
+      img {
+         width: 55%;
+
+      }
+   }
+
+   .footer {
+      .wrapper {
+         flex-wrap: wrap;
+
+         .left-block {
+            .soc-networks {
+               width: 100%;
+            }
+         }
+
+         form {
+            width: 100%;
+            margin-top: 50px;
+            align-items: center;
+            
+            button {
+               margin-top: 10px;
+            }
+
+         }
+      }
+   }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (max-width: 1400px) {
+   .browse-by {
+      .wrapper {
+         flex-direction: column;
+
+         .browse-by__group {
+            h3 {
+               text-align: center;
+               margin: 29px auto;
+            }
+         }
+      }
+   }
+
+   .top-nft {
+      .grid-wrapper-for-nfts {
+         grid-template-columns: repeat(2,1fr);
+      }
+   }
+}
+
+@media (min-width:1920px) {
+   .join-us {
+      .background-people {
+         height: 520px;
+      }
+   }
+}

@@ -1,0 +1,13 @@
+@mixin font-settings-400 {
+   font-family: 'Outfit', sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   letter-spacing: 0.48px;
+}
+
+@mixin font-settings-700 {
+   font-family: 'Outfit', sans-serif;
+   font-style: normal;
+   font-weight: 700;
+   letter-spacing: 0.48px;
+}
